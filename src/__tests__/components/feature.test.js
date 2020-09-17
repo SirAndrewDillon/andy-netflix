@@ -6,12 +6,12 @@ describe('<Feature />', () => {
   it('renders the <Feature /> with populated data', () => {
     const { container, getByText } = render(
       <Feature>
-        <Feature.Title>Unlimited films, TV programmes and more.</Feature.Title>
+        <Feature.Title>Unlimited films, TV programs and more.</Feature.Title>
         <Feature.SubTitle>Watch anywhere. Cancel at any time.</Feature.SubTitle>
       </Feature>
     );
 
-    expect(getByText('Unlimited films, TV programmes and more.')).toBeTruthy();
+    expect(getByText('Unlimited films, TV programs and more.')).toBeTruthy();
     expect(getByText('Watch anywhere. Cancel at any time.')).toBeTruthy();
     expect(container.firstChild).toMatchSnapshot();
   });
@@ -19,11 +19,11 @@ describe('<Feature />', () => {
   it('renders the <Feature /> with just a title', () => {
     const { container, queryByText, getByText } = render(
       <Feature>
-        <Feature.Title>Unlimited films, TV programmes and more.</Feature.Title>
+        <Feature.Title>Unlimited films, TV programs and more.</Feature.Title>
       </Feature>
     );
 
-    expect(getByText('Unlimited films, TV programmes and more.')).toBeTruthy();
+    expect(getByText('Unlimited films, TV programs and more.')).toBeTruthy();
     expect(queryByText('Watch anywhere. Cancel at any time.')).toBeFalsy();
     expect(container.firstChild).toMatchSnapshot();
   });
@@ -36,7 +36,7 @@ describe('<Feature />', () => {
     );
 
     expect(getByText('Watch anywhere. Cancel at any time.')).toBeTruthy();
-    expect(queryByText('Unlimited films, TV programmes and more.')).toBeFalsy();
+    expect(queryByText('Unlimited films, TV programs and more.')).toBeFalsy();
     expect(container.firstChild).toMatchSnapshot();
   });
 });

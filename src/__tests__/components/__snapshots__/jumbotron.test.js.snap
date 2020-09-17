@@ -50,7 +50,7 @@ exports[`<Jumbotron /> renders the <Jumbotron /> with populated data 1`] = `
         <h1
           class="jumbotron__Title-es77m8-2 cZibSo"
         >
-          Download your programmes to watch on the go.
+          Download your programs to watch on the go.
         </h1>
         <h2
           class="jumbotron__SubTitle-es77m8-3 MnkRD"
@@ -88,7 +88,7 @@ exports[`<Jumbotron /> renders the <Jumbotron /> with populated data 1`] = `
         <h2
           class="jumbotron__SubTitle-es77m8-3 MnkRD"
         >
-          Stream unlimited films and TV programmes on your phone, tablet, laptop and TV without paying more.
+          Stream unlimited films and TV programs on your phone, tablet, laptop and TV without paying more.
         </h2>
       </div>
       <div
