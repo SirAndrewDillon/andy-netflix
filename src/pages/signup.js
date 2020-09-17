@@ -75,7 +75,7 @@ export default function SignUp() {
             Already a user? <Form.Link to="/signin">Sign in now.</Form.Link>
           </Form.Text>
           <Form.TextSmall>
-            This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
+            This page is protected by Google reCAPTCHA to ensure you're not a troll. Learn more.
           </Form.TextSmall>
         </Form>
       </HeaderContainer>
