@@ -15,6 +15,6 @@ const config = {
 
 const firebase = Firebase.initializeApp(config);
 
-// seedDatabase(firebase)
+
 
 export { firebase };
